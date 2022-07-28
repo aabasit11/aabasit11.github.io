@@ -600,7 +600,7 @@ progress {
 }
 
 .blockquote-footer::before {
-    content: "— "
+    content: "— "
 }
 
 .img-fluid {
@@ -2997,7 +2997,7 @@ textarea.form-control.is-valid {
     margin-top: .1rem;
     font-size: .875rem;
     color: #fff;
-    background-color: rgba(220, 53, 69, .9);
+    background-color: rgba(14, 119, 199, 0.603);
     border-radius: .25rem
 }
 
@@ -3021,7 +3021,7 @@ textarea.form-control.is-valid {
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
     border-color: #018AF4;
-    box-shadow: 0 0 0 .25rem rgba(220, 53, 69, .25)
+    box-shadow: 0 0 0 .25rem rgba(14, 119, 199, 0.603)
 }
 
 .was-validated textarea.form-control:invalid,
@@ -3042,7 +3042,7 @@ textarea.form-control.is-invalid {
 .form-select.is-invalid:focus,
 .was-validated .form-select:invalid:focus {
     border-color: #018AF4;
-    box-shadow: 0 0 0 .25rem rgba(220, 53, 69, .25)
+    box-shadow: 0 0 0 .25rem rgba(14, 119, 199, 0.603)
 }
 
 .form-check-input.is-invalid,
@@ -3052,12 +3052,12 @@ textarea.form-control.is-invalid {
 
 .form-check-input.is-invalid:checked,
 .was-validated .form-check-input:invalid:checked {
-    background-color: #018AF4
+    background-color: #018af4
 }
 
 .form-check-input.is-invalid:focus,
 .was-validated .form-check-input:invalid:focus {
-    box-shadow: 0 0 0 .25rem rgba(220, 53, 69, .25)
+    box-shadow: 0 0 0 .25rem rgba(14, 119, 199, 0.603)
 }
 
 .form-check-input.is-invalid~.form-check-label,
@@ -3354,7 +3354,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #018AF4;
     border-color: #018AF4;
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, .5)
+    box-shadow: 0 0 0 .25rem rgba(42, 148, 230, 0.603)
 }
 
 .btn-check:active+.btn-danger,
@@ -3372,7 +3372,7 @@ fieldset:disabled .btn {
 .btn-danger.active:focus,
 .btn-danger:active:focus,
 .show>.btn-danger.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, .5)
+    box-shadow: 0 0 0 .25rem rgba(42, 148, 230, 0.603)
 }
 
 .btn-danger.disabled,
@@ -11550,7 +11550,7 @@ fieldset:disabled .btn {
     position: fixed;
     height: 100vh;
     width: 100%;
-    background: #f5f6f8;
+    
     z-index: 90000
 }
 
